@@ -1,0 +1,30 @@
+img{
+	/*3 images per row, so 90 percent of space is used by images*/
+	width: 30%;
+	/*The remaining 10% can be used for margins: 
+	  margin (left and right) = remaining space (10%)
+	  						    / no. of. margins (6)
+	   						  = 1.66 aprox.*/
+	margin: 1.66%;
+	float: left;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.color {
+	background-color: pink;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	border-bottom: 2px dashed cyan;
+	margin: 1.66%;
+	padding-bottom: 23px;
+	width: 30%;
+	text-transform: uppercase;
+}

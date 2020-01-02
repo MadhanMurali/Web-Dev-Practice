@@ -1,0 +1,99 @@
+<html>
+<head><title>Payslip Generation</title>
+<script language = "javascript">
+function payslip()
+{
+	f1.t5.value = parseInt(f1.t4.value)*0.49;
+	f1.t6.value = parseInt(f1.t4.value)*0.12;
+	f1.t7.value = parseInt(f1.t4.value)*0.12;
+	f1.t8.value = parseInt(f1.t4.value)*0.12;
+	f1.t9.value = parseInt(f1.t4.value) + parseInt(f1.t5.value) + parseInt(f1.t6.value);
+	f1.t10.value = parseInt(f1.t7.value) + parseInt(f1.t8.value);
+	f1.t11.value = parseInt(f1.t9.value) - parseInt(f1.t10.value);
+}
+</script>
+</head>
+
+<body bgcolor = "lightyellow">
+<center>
+<img align="left" src="images.png" height = "20%" width = "10%">
+<font color = "darkgreen">
+<h2>St. Peter's Institute of Higher Eduction and Research</h2>
+<h2>St. Peter's University, Avadi, Chennai</h2>
+<h3>An ISO 9001:2000 Certified Institute & NAAC Accredited</h3>
+</font>
+<br>
+
+<h3><font color = "purple">FEB 2019</font><h3>
+
+<table border=0>
+<form name = "f1">
+<p align = "left">
+
+<tr>
+<td><b><font color = "red">Name: </font></b></td>
+<td><input type = "text" name = "t1"></td>
+</tr>
+
+<tr>
+<td><b><font color = "red">Designation: </font></b></td>
+<td><input type = "text" name = "t2"></td>
+</tr>
+
+<tr>
+<td><b><font color = "red">Department: </font></b></td>
+<td><input type = "text" name = "t3"></td>
+</tr>
+
+<tr>
+<td><b><font color = "red">Basic Pay: </font></b></td>
+<td><input type = "text" name = "t4"></td>
+</tr>
+
+<tr>
+<td><b><font color = "red">Dearness Allowance: </font></b></td>
+<td><input type = "text" name = "t5"></td>
+</tr>
+
+<tr>
+<td><b><font color = "red">HRA: </font></b></td>
+<td><input type = "text" name = "t6"></td>
+</tr>
+
+<tr>
+<td><b><font color = "red">Professional Tax: </font></b></td>
+<td><input type = "text" name = "t7"></td>
+</tr>
+
+<tr>
+<td><b><font color = "red">Income Tax: </font></b></td>
+<td><input type = "text" name = "t8"></td>
+</tr>
+
+<tr>
+<td><b><font color = "red">Gross Pay: </font></b></td>
+<td><input type = "text" name = "t9"></td>
+</tr>
+
+<tr>
+<td><b><font color = "red">Deductions: </font></b></td>
+<td><input type = "text" name = "t10"></td>
+</tr>
+
+<tr>
+<td><b><font color = "red">Net Pay: </font></b></td>
+<td><input type = "text" name = "t11"></td>
+</tr>
+
+<tr>
+<td colspan="2" align = "center"><input type = "button" value = "Generate Payslip" onclick="payslip()"></td>
+</tr>
+
+</p>
+</form>
+</table>
+
+</center>
+
+</body>
+</html>

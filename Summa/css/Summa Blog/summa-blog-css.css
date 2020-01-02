@@ -1,0 +1,55 @@
+/*My Version*/
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-left: 10%;
+	margin-right: 10%;
+	border: 1.5vw solid #b7d48e; /*viewport width*/
+	padding: 2.5%; /*with this line no need to add margin in individual child elements*/
+}
+
+/*Udemy Version*/
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	max-width: 700px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1.5vw solid #b7d48e; /*viewport width*/
+	padding: 2.5%; /*with this line no need to add margin in individual child elements*/
+}
+
+.date {
+	/*margin-left: 2.5%;*/
+	/*font-size: 80%;*/
+	text-transform: uppercase;
+	font-size: 0.8em;
+	font-weight: 700;
+	letter-spacing: 0.2em;
+	color: #9bc462;
+}
+
+span {
+	font-size: 1.1em;
+}
+
+p {
+	/*margin-left: 2.5%;*/
+}
+
+h2 {
+	/*margin-left: 2.5%;*/
+	color: #344d12;
+	font-weight: 700;
+	font-size: 2.1em;
+}
+
+div p:nth-of-type(2) {
+	border-left: 0.3em solid #90ab6a;
+	padding-left: 0.3em;
+}
+
+hr {
+	border: 0.1em solid rgba(157, 209, 189, 0.5);
+	/*margin-left: 2.5%;
+	margin-right: 2.5%; */
+}

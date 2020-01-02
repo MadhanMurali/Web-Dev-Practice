@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORMS</title>
+</head>
+<body>
+	<h3>LOGIN</h3>
+	<form action="http://www.facebook.com" method="get">
+		<label for="email">email:</label>
+		<input id="email" type="email" placeholder="email" name="email" required>
+		<label for="password">Password:</label>
+		<input id="password" type="password" placeholder="password" name="password" required>
+		<input type="SUBMIT" placeholder="SUBMIT">
+	</form>
+	<h4>What do you prefer?</h4>
+	<form>
+		<label for="Fate">Fate Series</label>
+		<input type="radio" name="ANIME" value="FateSeries" id="Fate">
+		<label for="CG">CG</label>
+		<input type="radio" name="ANIME" value="Code Geass" id="CG">
+		<select name="AnimeDropdown">
+			<option value="CG">Code Geass</option>
+			<option value="FS">Fate Series</option>
+		</select>
+		<button>SUBMIT</button>
+	</form>
+</body>
+</html>

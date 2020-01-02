@@ -1,0 +1,32 @@
+h3 {
+	font-family: Alatsi, sans-serif;
+	text-align: center;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td{
+	width: 100px;
+	height: 100px;
+}
+
+/*tr td:not(:last-of-type) {
+	border-right: 1px solid red;
+}
+
+tr:nth-of-type(-n+2) td {
+	border-bottom: 1px solid red;
+}*/
+
+tr td:nth-of-type(2) {
+	border-left: 1px solid red;
+	border-right: 1px solid red;
+}
+
+tr:nth-of-type(2) td {
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+}

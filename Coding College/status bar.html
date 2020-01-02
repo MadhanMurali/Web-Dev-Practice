@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head runat = "server">
+<title>Untitled Page</title>
+</head>
+
+<body>
+<h3>On clicking the button a new window without toolbar, statusbar or addressbar is displayed and the opened files will be automatically closed after 1 minute</h3>
+<form id = "form1" runat = "server">
+<input type = "button" value = "Submit" onclick = "openf()"/>
+<div></div>
+</form>
+
+<script language = "javascript">
+var a;
+
+function settimer()
+{
+setInterval('unloadfile()', 6000);
+}
+
+function openf()
+{
+var file1 = prompt("Enter the name with .html extention", "four.html");
+a = open(file1, "menubar = no toolbar = no statusbar = no");
+settimer();
+}
+
+function unloadfole()
+{
+a.close();
+}
+</script>
+</body>
+</html>

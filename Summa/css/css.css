@@ -1,0 +1,12 @@
+#border
+{
+	/*color, style, size can be in any order*/
+	border: red solid 5px;
+	/*border-style: dashed; border-color: red; border-size: 5px*/
+}
+
+.background
+{
+	background-image: url(https://bw-1651cf0d2f737d7adeab84d339dbabd3-gallery.s3.amazonaws.com/images/image_2814550/5a8c90fd106f6230950ebb72dbd033ee_original.jpg); 
+	
+}
